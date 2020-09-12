@@ -18,6 +18,7 @@ def factorial_iterative(n):
     fac_iter = 1
     for i in range(n):
         # how it will calculate the value which is 120
+        print(f"now i is {i} and + 1 = {i+1}")
         print(f"fac_iter x (i+1) <variables | value > {fac_iter} x {i+1} =  ")
         fac_iter = fac_iter * (i+1)  # it will calculate value from 1 to given value in 'n'
         print(f"After Calculation new'fac_iter' is {fac_iter} \n")  # it will show calculated fac value
@@ -25,7 +26,7 @@ def factorial_iterative(n):
 
 
 while True:
-    
+
     number = input("Give a number for Factorial via Iterative method  [ 13 = exit ] > ")
 
     if number == str(number) or number == None:
